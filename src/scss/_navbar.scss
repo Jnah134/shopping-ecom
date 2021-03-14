@@ -1,4 +1,32 @@
 .navbar {
-  padding: 1rem;
-  border-right: 1px solid #000;
+  padding: 0 2rem;
+  text-transform: capitalize;
+
+  .navbar-list {
+    margin-top: 2rem;
+
+    .navbar-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin: 1.5rem 0;
+    }
+
+    .active-link {
+      font-weight: 700;
+
+      &::after {
+        content: '\2022';
+        color: #fcda04;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: 0.6rem;
+      }
+    }
+  }
 }
