@@ -145,7 +145,44 @@
 }
 
 .hero-section {
-  border-left: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: auto;
+}
+
+.hero-section .switch-gender-container {
+  background-color: #e4fdff;
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.4rem;
+}
+
+.hero-section .switch-gender-container button {
+  text-transform: capitalize;
+  background: transparent;
+  outline: transparent;
+  border-color: transparent;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hero-section .switch-gender-container .active-btn {
+  background-color: #fac08b;
+  padding: 0.5rem 1.1rem;
+  margin-right: 0.15rem;
+  color: #fff;
+}
+
+.hero-section .switch-gender-container .btn {
+  padding: 0.5rem 1.1rem;
+}
+
+.sold-img {
+  width: 300px;
 }
 
 * {
@@ -161,12 +198,6 @@ body {
 }
 
 .flex-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 2rem 2rem 3rem 0;
 }
 /*# sourceMappingURL=index.css.map */
