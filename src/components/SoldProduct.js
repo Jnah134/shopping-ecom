@@ -1,25 +1,10 @@
 import React from 'react';
 import { products } from '../data';
-import { soldProducts } from '../data';
 import { BiChevronRight } from 'react-icons/bi';
 
 const SoldProduct = () => {
   return (
     <article className="mockup-product">
-      {soldProducts.map((mockup) => {
-        const { id, name, subtitle, image } = mockup;
-
-        return (
-          <main key={id} className="sold">
-            <img src={image} alt={name} className="mockup-img" />
-            <div className="info-sold">
-              <h1>{name}</h1>
-              <h4>{subtitle}</h4>
-            </div>
-          </main>
-        );
-      })}
-
       {products.map((item) => {
         const { id, image, name, oldPrice, newPrice } = item;
 

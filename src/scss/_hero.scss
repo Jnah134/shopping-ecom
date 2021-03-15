@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   height: auto;
+  padding: 2rem;
 
   .switch-gender-container {
     background-color: $second-clr;
@@ -35,6 +36,6 @@
   border-radius: $radius;
   max-width: 350px;
   width: 100%;
-  height: auto;
+  height: 400px;
   object-fit: cover;
 }

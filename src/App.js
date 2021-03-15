@@ -3,13 +3,15 @@ import Loading from './components/Loading';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import SoldProduct from './components/SoldProduct';
+import Mockup from './components/Mockup';
 
 function App() {
   return (
-    <div className="flex-box">
+    <div>
       {/* <Navbar /> */}
-      <div>
-        <Hero />
+      <Hero />
+      <div className="container">
+        <Mockup />
         <SoldProduct />
       </div>
     </div>

@@ -14,7 +14,7 @@ const Hero = () => {
       <form className="search-products">
         <input
           type="text"
-          className="search-field"
+          className="input-field"
           placeholder="Search for items, brands, and the latest products..."
         />
       </form>

@@ -1,8 +1,8 @@
 @import './config';
+@import './mockup.scss';
 @import './loading';
 @import './navbar';
 @import './hero';
-@import './mockup.scss';
 
 * {
   margin: 0;
@@ -13,10 +13,4 @@
 body {
   background-color: white;
   font-family: 'Nunito', sans-serif;
-}
-
-.flex-box {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 2rem 3rem 0;
 }

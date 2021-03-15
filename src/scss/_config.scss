@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
 
 // Variables
-$main-clr: #000;
 $white-clr: #fff;
+$main-clr: #000;
 $second-clr: #e4fdff;
 $btn-clr: #fac08b;
 $spacing: 0.15rem;
 $radius: 0.4rem;
+
+// input
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
