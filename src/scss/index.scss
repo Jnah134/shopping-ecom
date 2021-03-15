@@ -2,6 +2,7 @@
 @import './loading';
 @import './navbar';
 @import './hero';
+@import './mockup.scss';
 
 * {
   margin: 0;
@@ -15,7 +16,7 @@ body {
 }
 
 .flex-box {
-  // display: flex;
-  // justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   padding: 2rem 2rem 3rem 0;
 }

@@ -7,9 +7,11 @@ import SoldProduct from './components/SoldProduct';
 function App() {
   return (
     <div className="flex-box">
-      <Navbar />
-      <Hero />
-      <SoldProduct />
+      {/* <Navbar /> */}
+      <div>
+        <Hero />
+        <SoldProduct />
+      </div>
     </div>
   );
 }
