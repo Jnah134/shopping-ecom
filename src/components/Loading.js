@@ -1,8 +1,8 @@
 import React from 'react';
-import { useGloablContext } from '../context';
+import { useGlobalContext } from '../context';
 
 const Loading = () => {
-  const { loading } = useGloablContext();
+  const { loading } = useGlobalContext();
 
   return (
     <>
